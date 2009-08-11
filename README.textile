@@ -4,6 +4,10 @@ GUI java application to keep track of time spent on certain projects.
  
 h2. Things to be added
 * Deleting of .job file.
+
+h2.  GUI
+
+<p><img src="http://cloud.github.com/downloads/BinaryBurnout/timelogger/timelogger_01.png" title="Screenshot01" alt="Screenshot01"/></p>
  
 h2. Copyright
  
