@@ -1,0 +1,22 @@
+CHANGE LOG:
+==========================================================================
+V09.08:
+- New load job screen.
+- Job Details: Total Elapsed Time will now now be accurate up the second.
+- Fixed timer.
+- Reworked verifying check methods.
+- Reworked method used to add entries to table.
+- Added version label to bottom.
+- Commented source code.
+- Timer now stops upon closing of application.
+- Added sorting methods...
+  - Sort by date...
+    - Earliest to latest.
+    - Latest to earliest.
+  - Sort by elapsed time...
+    - Longest to shortest.
+    - Shortest to longest.
+- Job Details: Added a "# of Entries" label.
+- Added entry notes ability.
+  - Added column checkbox to show if there are notes for that entry.
+- Now saves the last sorting method to job file.
