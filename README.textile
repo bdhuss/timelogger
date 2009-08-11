@@ -1,36 +1,36 @@
-h1.  TimeLogger
-
+h1. TimeLogger
+ 
 GUI java application to keep track of time spent on certain projects.
-
-h2.  Things to be added
+ 
+h2. Things to be added
 * Deleting of .job file.
-
-h2.  GUI
-
+ 
+h2. GUI
+ 
 |==============================================[-][X]|
 |_File__Sort_________________________________________|
 |-Job Details----------------------------------------|
-| Title:                                             |
-| Date Started:                                      |
-| # of Entries:                                      |
-| Total Elapsed Time:                                |
+| Title: |
+| Date Started: |
+| # of Entries: |
+| Total Elapsed Time: |
 |----------------------------------------------------|
-|                                                    |
+| |
 |-Current Entry Details------------------------------|
-| Time Started:                                      |
+| Time Started: |
 | Elapsed Time: 0:00:00 [Start] [Pause] [Edit Notes] |
 |----------------------------------------------------|
-|                                                    |
+| |
 |-Time Entries---------------------------------------|
 |===|=============================|===========|======|
-|#  |Date                         |Time       |Notes |
+|# |Date |Time |Notes |
 |===|=============================|===========|======|
-|   |                             |           |      |
-|   |                             |           |      |
-|   |                             |           |      |
-|   |                             |           |      |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
 |====================================================|
-
-h2.  Copyright
-
+ 
+h2. Copyright
+ 
 Copyright (c) 2009 Bryan Huss. See LICENSE for details.
