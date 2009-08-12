@@ -3,3 +3,4 @@ Test Job.job
 .project
 .classpath
 screenshots/
+bin/
