@@ -33,6 +33,23 @@ I included a jar file for those that don't want to compile the source themselves
 	java -jar timelogger.jar
 </code>
 </pre>
+Java complains a bit if you compile the source with one version of Java and try to run it on another. So if you have troubles running the jar 
+file, the source files were included within the JAR file. Simple extract the files and compile.
+<pre>
+<code>
+	// To view contents of jar file...
+	jar tf timelogger.jar
+
+	// To extract all contents of jar file...
+	jar xf timelogger.jar *
+
+	// To compile .java files...
+	javac TimeLogger.java
+
+	// To run application...
+	java TimeLogger
+</code>
+</pre>
 
 h2. Things to be added
 * Deleting of .job file.
