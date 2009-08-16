@@ -25,6 +25,14 @@ h2. Clone, Compile and Run Instructions
 </code>
 </pre>
 
+h2. JAR Included
+
+I included a jar file for those that don't want to compile the source themselves. To run use...
+<pre>
+<code>
+	java -jar timelogger.jar
+</code>
+</pre>
 
 h2. Things to be added
 * Deleting of .job file.
