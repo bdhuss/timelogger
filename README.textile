@@ -9,21 +9,21 @@ h2. Clone, Compile and Run Instructions
 <pre>
 <code>
 	git clone git://github.com/BinaryBurnout/timelogger.git
-</code>
 </pre>
+</code>
 3. Navigate to the .java files and compile...
 <pre>
 <code>
 	cd timelogger/src
 	javac TimeLogger.java
-</code>
 </pre>
+</code>
 4. Run the application...
 <pre>
 <code>
 	java TimeLogger
-</code>
 </pre>
+</code>
 
 h2. JAR Included
 
@@ -31,8 +31,8 @@ I included a jar file for those that don't want to compile the source themselves
 <pre>
 <code>
 	java -jar timelogger.jar
-</code>
 </pre>
+</code>
 Java complains a bit if you compile the source with one version of Java and try to run it on another. So if you have troubles running the jar 
 file, the source files were included within the JAR file. Simple extract the files and compile.
 <pre>
@@ -75,8 +75,8 @@ file, the source files were included within the JAR file. Simple extract the fil
 
 	// To run application...
 	java TimeLogger
-</code>
 </pre>
+</code>
 
 h2. Things to be added
 * Deleting of .job file.
