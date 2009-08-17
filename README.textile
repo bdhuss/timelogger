@@ -6,27 +6,44 @@ h2. Clone, Compile and Run Instructions
 
 1. Navigate to the directory you wish to download the source to.
 2. Clone the source with the following command...
+
+<pre>
 <code>
-p(.	git clone git://github.com/BinaryBurnout/timelogger.git
+	git clone git://github.com/BinaryBurnout/timelogger.git
 </code>
+</pre>
+
 3. Navigate to the .java files and compile...
+
+<pre>
 <code>
-p(.	cd timelogger/src
-p(.	javac TimeLogger.java
+	cd timelogger/src
+	javac TimeLogger.java
 </code>
+</pre>
+
 4. Run the application...
+
+<pre>
 <code>
-p(.	java TimeLogger
+	java TimeLogger
 </code>
+</pre>
 
 h2. JAR Included
 
 I included a jar file for those that don't want to compile the source themselves. To run use...
+
+<pre>
 <code>
-p(.	java -jar timelogger.jar
+	java -jar timelogger.jar
 </code>
+</pre>
+
 Java complains a bit if you compile the source with one version of Java and try to run it on another. So if you have troubles running the jar 
 file, the source files were included within the JAR file. Simple extract the files and compile.
+
+<pre>
 <code>
 	// To view contents of jar file...
 	jar tf timelogger.jar
@@ -58,15 +75,16 @@ file, the source files were included within the JAR file. Simple extract the fil
 	TimeLogger.java
 
 
-p(.	// To extract all contents of jar file...
-p(.	jar xf timelogger.jar *
+	// To extract all contents of jar file...
+	jar xf timelogger.jar *
 
-p(.	// To compile .java files...
-p(.	javac TimeLogger.java
+	// To compile .java files...
+	javac TimeLogger.java
 
-p(.	// To run application...
-p(.	java TimeLogger
+	// To run application...
+	java TimeLogger
 </code>
+</pre>
 
 h2. Things to be added
 * Deleting of .job file.
