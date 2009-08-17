@@ -37,43 +37,43 @@ Java complains a bit if you compile the source with one version of Java and try 
 file, the source files were included within the JAR file. Simple extract the files and compile.
 <pre>
 <code>
-// To view contents of jar file...
+	// To view contents of jar file...
 	jar tf timelogger.jar
-//OUTPUT:
-META-INF/
-META-INF/MANIFEST.MF
-Entry.class
-Entry.java
-EntryTableModel.class
-EntryTableModel.java
-GUI$1.class
-GUI$2.class
-GUI.class
-GUI.java
-GUI$LoadWindowListener.class
-GUI$MenuListener.class
-GUI$NotesFrameListener.class
-Job.class
-Job.java
-LICENSE
-LoadJobWindow.class
-LoadJobWindow.java
-MANIFEST.MF
-NotesFrame.class
-NotesFrame.java
-README.textile
-TimeLogger$1.class
-TimeLogger.class
-TimeLogger.java
+	//OUTPUT:
+	META-INF/
+	META-INF/MANIFEST.MF
+	Entry.class
+	Entry.java
+	EntryTableModel.class
+	EntryTableModel.java
+	GUI$1.class
+	GUI$2.class
+	GUI.class
+	GUI.java
+	GUI$LoadWindowListener.class
+	GUI$MenuListener.class
+	GUI$NotesFrameListener.class
+	Job.class
+	Job.java
+	LICENSE
+	LoadJobWindow.class
+	LoadJobWindow.java
+	MANIFEST.MF
+	NotesFrame.class
+	NotesFrame.java
+	README.textile
+	TimeLogger$1.class
+	TimeLogger.class
+	TimeLogger.java
 
 
-// To extract all contents of jar file...
+	// To extract all contents of jar file...
 	jar xf timelogger.jar *
 
-// To compile .java files...
+	// To compile .java files...
 	javac TimeLogger.java
 
-// To run application...
+	// To run application...
 	java TimeLogger
 </code>
 </pre>
